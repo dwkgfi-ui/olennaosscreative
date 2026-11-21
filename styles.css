@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --ink: #332b42;
-  --plum: #65436f;
-  --berry: #c94f78;
-  --coral: #f07861;
-  --tangerine: #f2a34a;
-  --sunshine: #f5d66e;
-  --teal: #4b9b9b;
-  --sky: #a8d5d4;
-  --leaf: #779b65;
-  --paper: #fff9ed;
-  --white: #fffdf8;
+  --ink: #292044;
+  --plum: #54206f;
+  --berry: #ed287a;
+  --coral: #ff594f;
+  --tangerine: #ff8a1f;
+  --sunshine: #ffd52a;
+  --teal: #00a9a5;
+  --sky: #42c7e8;
+  --leaf: #55b83f;
+  --paper: #fff9ec;
+  --white: #ffffff;
   --serif: "Bree Serif", Georgia, serif;
   --sans: "Nunito", Arial, sans-serif;
   --hand: "Caveat", cursive;
@@ -26,8 +26,8 @@ body {
   line-height: 1.7;
   background-color: var(--paper);
   background-image:
-    radial-gradient(circle at 12px 12px, rgba(201,79,120,.09) 1.5px, transparent 2px),
-    radial-gradient(circle at 34px 34px, rgba(75,155,155,.08) 1.5px, transparent 2px);
+    radial-gradient(circle at 12px 12px, rgba(237,40,122,.13) 1.5px, transparent 2px),
+    radial-gradient(circle at 34px 34px, rgba(0,169,165,.12) 1.5px, transparent 2px);
   background-size: 46px 46px;
 }
 .site-header {
@@ -36,8 +36,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255,253,248,.94);
-  border-bottom: 4px solid var(--sunshine);
+  background: rgba(255,255,255,.96);
+  border-bottom: 5px solid var(--sunshine);
 }
 .brand {
   display: flex;
@@ -53,13 +53,13 @@ body {
 .brand-sub {
   margin-top: 7px;
   color: var(--berry);
-  font: 600 18px var(--hand);
+  font: 700 18px var(--hand);
   letter-spacing: .08em;
   text-align: center;
 }
 .header-note {
   color: var(--teal);
-  font: 700 17px var(--hand);
+  font: 700 18px var(--hand);
   transform: rotate(-3deg);
 }
 .hero {
@@ -109,14 +109,14 @@ h1 em, h2 em {
 .lead {
   max-width: 490px;
   margin: 25px 0 14px;
-  color: #5d5266;
+  color: #504466;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .supporting {
   max-width: 450px;
   margin: 0 0 28px;
-  color: #81758a;
+  color: #716485;
   font-size: 14px;
 }
 .button, .contact-button {
@@ -148,13 +148,13 @@ h1 em, h2 em {
   justify-content: center;
   overflow: hidden;
   border-radius: 48% 52% 44% 56% / 48% 43% 57% 52%;
-  background: linear-gradient(145deg, #f9d8a3, #f5b5ad 55%, #c6dedd);
+  background: linear-gradient(135deg, #ffcf33 0%, #ff6b72 48%, #38c9c2 100%);
   box-shadow: inset 0 0 0 10px rgba(255,255,255,.35);
 }
 .hero-visual::before, .hero-visual::after {
   position: absolute;
   content: "";
-  border: 2px dashed rgba(255,255,255,.85);
+  border: 2px dashed rgba(255,255,255,.9);
   border-radius: 50%;
 }
 .hero-visual::before { width: 390px; height: 390px; }
@@ -167,7 +167,7 @@ h1 em, h2 em {
   height: 115px;
   border-radius: 50%;
   background: var(--sunshine);
-  opacity: .95;
+  opacity: .98;
 }
 .hoop {
   position: relative;
@@ -175,10 +175,10 @@ h1 em, h2 em {
   width: min(76%, 355px);
   aspect-ratio: 1;
   padding: 15px;
-  border: 7px solid #b77943;
+  border: 7px solid #a95b24;
   border-radius: 50%;
-  background: linear-gradient(135deg, #f4ca88, #a96b3c 48%, #f3d49a);
-  box-shadow: 0 22px 35px #40334b2b;
+  background: linear-gradient(135deg, #ffd27a, #a95b24 48%, #ffdc8b);
+  box-shadow: 0 22px 35px #29204438;
 }
 .fabric {
   width: 100%;
@@ -187,17 +187,17 @@ h1 em, h2 em {
   place-items: center;
   overflow: hidden;
   border-radius: 50%;
-  background: #fff6e7;
+  background: #fff8e9;
   box-shadow: inset 0 0 0 2px #ead9bd;
 }
 .fabric svg { width: 92%; height: 92%; }
-.stem { fill: none; stroke: #56865f; stroke-width: 5; stroke-linecap: round; }
-.leaf { fill: #a8c67f; stroke: #56865f; stroke-width: 2; }
-.flower { fill: #ef7d91; stroke: #c94f78; stroke-width: 2; }
-.flower.small { fill: #f4ca58; stroke: #d29c32; }
-.flower.coral { fill: #9b7ab7; stroke: #72518e; }
-.center { fill: #f5d66e; stroke: #d29c32; }
-.tiny { fill: none; stroke: #56865f; stroke-width: 3; stroke-linecap: round; }
+.stem { fill: none; stroke: #278c42; stroke-width: 5; stroke-linecap: round; }
+.leaf { fill: #91d83e; stroke: #278c42; stroke-width: 2; }
+.flower { fill: #ff4e9b; stroke: #d91f70; stroke-width: 2; }
+.flower.small { fill: #ffca22; stroke: #d89b00; }
+.flower.coral { fill: #a76be8; stroke: #7040ae; }
+.center { fill: #ffcf28; stroke: #d89b00; }
+.tiny { fill: none; stroke: #278c42; stroke-width: 3; stroke-linecap: round; }
 .visual-caption {
   position: absolute;
   z-index: 2;
@@ -205,18 +205,18 @@ h1 em, h2 em {
   bottom: 20px;
   padding: 7px 16px;
   color: var(--plum);
-  background: var(--white);
+  background: white;
   border: 2px dashed var(--berry);
   border-radius: 22px;
-  font: 600 19px var(--hand);
+  font: 700 19px var(--hand);
 }
 .sparkle { position: absolute; z-index: 2; }
 .sparkle-one { top: 13%; left: 12%; color: white; font-size: 34px; }
 .sparkle-two { bottom: 20%; left: 8%; color: var(--plum); font-size: 34px; }
 .connect {
   padding: 85px 10% 95px;
-  background: #f9e7dc;
-  border-top: 4px dashed #e7b9a6;
+  background: linear-gradient(135deg, #ffe0e9 0%, #fff0c8 52%, #d9f4ed 100%);
+  border-top: 5px dashed #ed8aa6;
 }
 .connect-heading {
   max-width: 570px;
@@ -227,7 +227,7 @@ h1 em, h2 em {
 .connect-heading > p:last-child {
   max-width: 460px;
   margin: 17px auto 0;
-  color: #746477;
+  color: #59496a;
   font-size: 14px;
 }
 .social-grid {
@@ -243,16 +243,16 @@ h1 em, h2 em {
   gap: 15px;
   padding: 17px 19px;
   color: var(--ink);
-  background: var(--white);
-  border: 2px solid #f0d2c3;
+  background: rgba(255,255,255,.96);
+  border: 2px solid #f2b6c9;
   border-radius: 17px 5px 17px 5px;
-  box-shadow: 4px 4px 0 #e7b9a6;
+  box-shadow: 4px 4px 0 #f5c85b;
   text-decoration: none;
   transition: transform .2s, box-shadow .2s;
 }
 .social-link:hover {
   transform: translateY(-3px) rotate(-.5deg);
-  box-shadow: 6px 7px 0 #e7b9a6;
+  box-shadow: 6px 7px 0 #f5c85b;
 }
 .social-icon {
   width: 44px;
@@ -267,7 +267,7 @@ h1 em, h2 em {
   font-weight: 800;
 }
 .social-link:nth-child(2) .social-icon { background: var(--berry); }
-.social-link:nth-child(3) .social-icon { background: #e66d55; }
+.social-link:nth-child(3) .social-icon { background: var(--coral); }
 .social-link:nth-child(4) .social-icon { background: var(--plum); }
 .instagram-icon { font-size: 28px; }
 .youtube-icon { font-size: 17px; }
@@ -278,7 +278,7 @@ h1 em, h2 em {
   line-height: 1.4;
 }
 .social-link strong { font-size: 14px; font-weight: 800; }
-.social-link small { margin-top: 3px; color: #89798b; font-size: 11px; }
+.social-link small { margin-top: 3px; color: #746583; font-size: 11px; }
 .arrow { margin-left: auto; color: var(--berry); }
 .contact-card {
   max-width: 850px;
@@ -288,8 +288,8 @@ h1 em, h2 em {
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-  background: #dcebe1;
-  border: 3px dashed #91b8a2;
+  background: #c9f0df;
+  border: 3px dashed #32a98b;
   border-radius: 7px 24px 7px 24px;
 }
 .contact-card .eyebrow { margin-bottom: 9px; }
@@ -300,7 +300,7 @@ h1 em, h2 em {
 }
 .contact-card p:not(.eyebrow) {
   margin: 5px 0 0;
-  color: #617b6b;
+  color: #326d63;
   font-size: 12px;
 }
 .contact-button { white-space: nowrap; }
@@ -311,14 +311,14 @@ h1 em, h2 em {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  color: #fff9ed;
-  background: var(--plum);
+  color: white;
+  background: linear-gradient(100deg, #54206f, #8c267c 55%, #bd286b);
   border-top: 8px solid var(--sunshine);
 }
-.footer-brand { color: #fff9ed; }
-.footer-brand .brand-name { color: #fff9ed; font-size: 25px; }
-.footer-brand .brand-sub { color: #f5c7d4; font-size: 16px; }
-.footer p, .footer > span { margin: 0; color: #eee0f0; font-size: 11px; }
+.footer-brand { color: white; }
+.footer-brand .brand-name { color: white; font-size: 25px; }
+.footer-brand .brand-sub { color: #ffcfdf; font-size: 16px; }
+.footer p, .footer > span { margin: 0; color: #fceaf4; font-size: 11px; }
 
 @media (max-width: 760px) {
   .site-header { min-height: 86px; padding: 14px 6%; }
